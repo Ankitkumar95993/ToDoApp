@@ -1,6 +1,4 @@
 
-
-
 const express = require("express");
 const app = express();
 
@@ -29,5 +27,5 @@ dbConnect();
 
 //default Route
 app.get("/", (req,res) => {
-    res.send(`<h1> This is HOMEPAGE baby</h1>`);
+    res.send(`<h1> This is HOMEPAGE my baby</h1>`);
 })
